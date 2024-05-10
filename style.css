@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-color: #D9CDF7;
+    color: #271A45;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main img{
+    margin-top: 5rem;
+    height: 15.8rem;
+}
+
+.infos p {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.infos h1 {
+    font-family: "Crimson Pro", serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-block: 0.75rem;
+}
+
+.infos #valor {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 1.25rem;
+}
+
+.infos button {
+    width: 12.5rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: 1px solid #271A45;
+    padding-inline: 1rem;
+
+    text-transform: uppercase;
+    color: #271A45;
+    background: none;
+}
+
+.infos button:hover {
+    background-color: #271A45;
+    color: #D9CDF7;
+}
